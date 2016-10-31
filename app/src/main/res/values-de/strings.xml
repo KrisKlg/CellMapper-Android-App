@@ -245,7 +245,7 @@
     <string name="start_recording">Starte Aufzeichnung</string>
 
     <string name="accessibility_description">Liest die Field-Test-Mode App Daten ohne Root.  Benötigt 4.2+ CellID API für Samsung Geräte.</string>
-    <string name="battery_optimization_error">Der Sofort-Upload funktioniert nicht bis die "Batterie-Optimierung" ausgeschaltet ist und CellMapper im Hintergrund läuft. Um das zu ermöglichen, gehe in die Android-Einstellung > Akku > Akku-Optimierung (Untermenü) und stelle sicher, dass CellMapper als "Nicht Optimiert" unter "Alle Apps" eingestellt ist.</string>
+    <string name="battery_optimization_error">Der Sofort-Upload funktioniert nicht bis die "Batterie-Optimierung" ausgeschaltet ist und CellMapper im Hintergrund läuft. Um das zu ermöglichen gehe in die Android-Einstellungen > Akku > Akku-Optimierung (Untermenü) und stelle sicher, dass CellMapper als "Nicht Optimiert" unter "Alle Apps" eingestellt ist.</string>
 
 
 
