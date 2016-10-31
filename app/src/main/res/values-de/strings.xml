@@ -162,7 +162,7 @@
     <string name="preferences_newcellapi_enabled_title">Nutze die neue Android 4.2 Cell ID API</string>
     <string name="preferences_newcellapi_enabled_summary">Die neue Zellen API für Android 4.2 und neuer wird genutzt. Leder haben viele Hersteller (inkl. Google) die neue API nicht implementiert. So wird es meisten nicht funktionieren. App-Neustart vorausgesetzt.</string>       
 
-    <string name="preferences_check_gps_age_title">Check GPS Alter</string>
+    <string name="preferences_check_gps_age_title">Prüfe GPS-Fix Alter</string>
     <string name="preferences_check_gps_age_summary">Erhöht Datengenauigkeit in Tunneln und dicht besiedelten Gebieten. Auschalten, wenn \'GPS Fix zu alt\' angezeigt wird auch wenn dies nicht zutrifft.</string>       
 
     <string name="preferences_record_interval_title">Kleinster Aufzeichnungsinterval</string>
@@ -174,14 +174,14 @@
     <string name="preferences_keep_screen_on_brightness_title">Keep Screen On Brightness</string>
     <string name="preferences_keep_screen_on_brightness_summary">How bright to keep the screen when the phone attempts to go to sleep.</string>
 
-    <string name="preferences_record_neighbours_title">Zeichne Nachtbarzellen auf</string>
-    <string name="preferences_record_neighbours_summary">Zeichnet Infos von Nachtbarzellen auf.  Very unreliable unless your phone supports > 4.2 CellID API.</string>       
+    <string name="preferences_record_neighbours_title">Zeichne Nachbarzellen auf</string>
+    <string name="preferences_record_neighbours_summary">Zeichnet Infos von Nachbarzellen auf. Sehr ungenau, außer dein Gerät untetützt die 4.2 CellID API.</string>       
 
     <string name="preferences_suppress_errors_title">Unterdrücke Fehler</string>
     <string name="preferences_suppress_errors_summary">Versteckt alle Fehler Pop-Ups, außer sie sind wichtig.</string>       
 
-    <string name="preferences_upload_batch_size_title">Upload Batch Size</string>
-    <string name="preferences_upload_batch_size_summary">Number of data points to upload per request for Upload Later.  Change this to a lower value if upload constantly fails</string>       
+    <string name="preferences_upload_batch_size_title">Upload Größe</string>
+    <string name="preferences_upload_batch_size_summary">Größe der Daten-Punkte, die pro Abfrage des Serves hochgeldaen werden.  Stelle eine kleinere Zahl ein, wenn der Upload öfters fehlschlägt.</string>       
 
     <string name="preferences_is_wear_enabled_title">Android Wear Benachritigungen aktivieren</string>
     <string name="preferences_is_wear_enabled_summary">Kontrolliert Android Wear Benachrichtigungen.  Neustart der App benötigt.</string>
