@@ -224,7 +224,7 @@
     <string name="blank_screen_press_back">Klicke auf Zurück um dieses Menü zu verlassen.</string>
 
     <string name="preferences_record2g_title">Aufzeichnen von 2G-Daten</string>
-    <string name="preferences_record2g_summary">Aktiviert/Deaktivier die Aufzeichnung von 2G (GSM, CDMA) Daten</string>
+    <string name="preferences_record2g_summary">Aktiviert/Deaktiviert die Aufzeichnung von 2G (GSM, CDMA) Daten</string>
 
     <string name="preferences_record3g_title">Aufzeichnen von 3G-Daten</string>
     <string name="preferences_record3g_summary">Aktiviert/Deaktiviert die Aufzeichnung von 3G (UMTS) Daten</string>
@@ -244,8 +244,8 @@
     <string name="stop_recording">Stoppe Aufzeichnung</string>
     <string name="start_recording">Starte Aufzeichnung</string>
 
-    <string name="accessibility_description">Reads field test mode app data without root.  Requires 4.2+ CellID API for Samsung devices.</string>
-    <string name="battery_optimization_error">The Instant Upload feature will not work until "battery optimization" is disabled and CellMapper is running in the background.  To do so, go to Android Settings > Battery > Battery Optimization (under menu) and ensure CellMapper is set to "Not optimized" under "All Apps".</string>
+    <string name="accessibility_description">Liest die Field-Test-Mode App Daten ohne Root.  Benötigt 4.2+ CellID API für Samsung Geräte.</string>
+    <string name="battery_optimization_error">Der Sofort-Upload funktioniert nicht bis die "Batterie-Optimierung" ausgeschaltet ist und CellMapper im Hintergrund läuft. Um das zu ermöglichen, gehe in die Android-Einstellung > Akku > Akku-Optimierung (Untermenü) und stelle sicher, dass CellMapper als "Nicht Optimiert" unter "Alle Apps" eingestellt ist.</string>
 
 
 
