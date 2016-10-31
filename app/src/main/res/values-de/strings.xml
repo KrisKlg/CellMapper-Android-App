@@ -125,7 +125,7 @@
     <string name="preferences_debug">Debug</string>
 
     <string name="preferences_upload_enabled_title">Sofort-Upload aktivieren</string>
-    <string name="preferences_upload_enabled_summary">Aktiviere den Live-Upload zur CellMapper Website.  Datnvolumen wird dafür benötigt, aber die Ergebnissen sind am genausten.\n Du kannst die Daten aber auch später hochladen.</string>
+    <string name="preferences_upload_enabled_summary">Aktiviere den Live-Upload zur CellMapper Website.  Datenvolumen wird dafür benötigt, aber die Ergebnissen sind am genausten.\n Du kannst die Daten aber auch später hochladen.</string>
 
     <string name="preferences_upload_auto_wifi_enabled_title">WLAN Auto-Upload</string>
     <string name="preferences_upload_auto_wifi_enabled_summary">Läd automatisch neue Daten hoch, wenn WLAN verfügbar ist.</string>
@@ -155,7 +155,7 @@
     <string name="preferences_display_towers_summary">Zeigt oder Versteckt Sendemasten auf der Karte</string>   
     
     <string name="preferences_show_low_accuracy_title">Zeige Sendemasten mit niedriger Genauigkeit</string>
-    <string name="preferences_show_low_accuracy_summary">Zeigt oder verstekt Sendemasten mit unzureichenden Daten.</string>   
+    <string name="preferences_show_low_accuracy_summary">Zeigt oder versteckt Sendemasten mit unzureichenden Daten.</string>   
     
     <string name="preferences_advanced_settings">Weitere Einstellungen</string>
     
@@ -175,7 +175,7 @@
     <string name="preferences_keep_screen_on_brightness_summary">How bright to keep the screen when the phone attempts to go to sleep.</string>
 
     <string name="preferences_record_neighbours_title">Zeichne Nachbarzellen auf</string>
-    <string name="preferences_record_neighbours_summary">Zeichnet Infos von Nachbarzellen auf. Sehr ungenau, außer dein Gerät untetützt die 4.2 CellID API.</string>       
+    <string name="preferences_record_neighbours_summary">Zeichnet Infos von Nachbarzellen auf. Sehr ungenau, außer dein Gerät untertützt die 4.2 CellID API.</string>       
 
     <string name="preferences_suppress_errors_title">Unterdrücke Fehler</string>
     <string name="preferences_suppress_errors_summary">Versteckt alle Fehler Pop-Ups, außer sie sind wichtig.</string>       
@@ -187,7 +187,7 @@
     <string name="preferences_is_wear_enabled_summary">Kontrolliert Android Wear Benachrichtigungen.  Neustart der App benötigt.</string>
 
     <string name="preferences_hide_unknown_cells_title">Verstecke Unbekannte Zellen</string>
-    <string name="preferences_hide_unknown_cells_summary">Versteckt Zellen mit unbekannter Zellen-ID auf dem Haupfbildschirm.</string>
+    <string name="preferences_hide_unknown_cells_summary">Versteckt Zellen mit unbekannter Zellen-ID auf dem Hauptbildschirm.</string>
 
     <string name="preferences_read_logcat_title">Liest den Logcat von Samsung/Sony Field Test Daten (root)</string>
     <string name="preferences_read_logcat_summary">Ermöglicht das Lesen des Logcats von Samsung/Sony Field Test Mode Daten.  Do not enable this if you are using the screen reader method.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
@@ -211,14 +211,14 @@
     <string name="gps_error_body">GPS wird benötigt, damit die App richtig funktioniert.  Sonst sind manche Funktionen nicht verfügbar.</string>
 
     <string name="map_error_title">Kartenfelhler</string>
-    <string name="map_error_body">Dein Handy untersützt Googles Maps API v2 leider nicht.  Besuche die Webseite um deine Daten zu s.</string>
+    <string name="map_error_body">Dein Handy unterstützt Googles Maps API v2 leider nicht.  Besuche die Webseite um deine Daten zu s.</string>
 
     <!-- Rest of prefs -->
     <string name="preferences_dual_sim_support_title">Dual SIM Untersützung</string>
-    <string name="preferences_dual_sim_support_summary">Aktiviert/Deakriviert Dual-SIM Unterstützung für Geräte, die die 4.2+ CellID API nicht unterstützen. Benötigt Neustart.</string>
+    <string name="preferences_dual_sim_support_summary">Aktiviert/Deaktiviert Dual-SIM Unterstützung für Geräte, die die 4.2+ CellID API nicht unterstützen. Benötigt Neustart.</string>
 
     <string name="preferences_send_debug_title">Sende Debug Infomationen</string>
-    <string name="preferences_send_debug_summary">Erzeugt eine Email mit Debug-Infomationen über dein Gerät für den Entwickler.  Wenn Fuktionen auf deinem Gerät nicht funktionieren ist das sehr hilfreich.</string>
+    <string name="preferences_send_debug_summary">Erzeugt eine Email mit Debug-Infomationen über dein Gerät für den Entwickler.  Wenn Funktionen auf deinem Gerät nicht funktionieren ist das sehr hilfreich.</string>
 
 
     <string name="blank_screen_press_back">Klicke auf Zurück um dieses Menü zu verlassen.</string>
