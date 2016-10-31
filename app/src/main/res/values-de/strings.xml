@@ -174,33 +174,33 @@
     <string name="preferences_keep_screen_on_brightness_title">Keep Screen On Brightness</string>
     <string name="preferences_keep_screen_on_brightness_summary">How bright to keep the screen when the phone attempts to go to sleep.</string>
 
-    <string name="preferences_record_neighbours_title">Record Neighbour Cells</string>
-    <string name="preferences_record_neighbours_summary">Record neighbour cell info.  Very unreliable unless your phone supports > 4.2 CellID API.</string>       
+    <string name="preferences_record_neighbours_title">Zeichne Nachtbarzellen auf</string>
+    <string name="preferences_record_neighbours_summary">Zeichnet Infos von Nachtbarzellen auf.  Very unreliable unless your phone supports > 4.2 CellID API.</string>       
 
-    <string name="preferences_suppress_errors_title">Suppress Errors</string>
-    <string name="preferences_suppress_errors_summary">This will hide all error popups and dialogs unless they are important.</string>       
+    <string name="preferences_suppress_errors_title">Unterdrücke Fehler</string>
+    <string name="preferences_suppress_errors_summary">Versteckt alle Fehler Pop-Ups, außer sie sind wichtig.</string>       
 
     <string name="preferences_upload_batch_size_title">Upload Batch Size</string>
     <string name="preferences_upload_batch_size_summary">Number of data points to upload per request for Upload Later.  Change this to a lower value if upload constantly fails</string>       
 
-    <string name="preferences_is_wear_enabled_title">Wear Notifications Enabled</string>
-    <string name="preferences_is_wear_enabled_summary">Controls Android Wear notifications.  Restart of app required.</string>
+    <string name="preferences_is_wear_enabled_title">Android Wear Benachritigungen aktivieren</string>
+    <string name="preferences_is_wear_enabled_summary">Kontrolliert Android Wear Benachrichtigungen.  Neustart der App benötigt.</string>
 
-    <string name="preferences_hide_unknown_cells_title">Hide Unknown Cells</string>
-    <string name="preferences_hide_unknown_cells_summary">Hides cells that have unknown CellID on the main screen.</string>
+    <string name="preferences_hide_unknown_cells_title">Verstecke Unbekannte Zellen</string>
+    <string name="preferences_hide_unknown_cells_summary">Versteckt Zellen mit unbekannter Zellen-ID auf dem Haupfbildschirm.</string>
 
-    <string name="preferences_read_logcat_title">Read logcat for Samsung/Sony Field Test data (root)</string>
-    <string name="preferences_read_logcat_summary">This will read your logcat output to attempt to get Samsung/Sony field test mode data.  Do not enable this if you are using the screen reader method.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
+    <string name="preferences_read_logcat_title">Liest den Logcat von Samsung/Sony Field Test Daten (root)</string>
+    <string name="preferences_read_logcat_summary">Ermöglicht das Lesen des Logcats von Samsung/Sony Field Test Mode Daten.  Do not enable this if you are using the screen reader method.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
 
-    <string name="preferences_read_logcat_qualcomm_title">Read Qualcomm LTE data (root)</string>
-    <string name="preferences_read_logcat_qualcomm_summary">This will read from Qualcomm modems the LTE frequency.</string>
+    <string name="preferences_read_logcat_qualcomm_title">Lese Qualcomm LTE Daten (root)</string>
+    <string name="preferences_read_logcat_qualcomm_summary">Liest die LTE-Frequenzen auf Qualcomm-Modems.</string>
 
-    <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm modem device</string>
-    <string name="preferences_read_logcat_qualcomm_device_summary">This is the modem device CellMapper will use.  Usually, /dev/smd11.  Restart required.</string>
+    <string name="preferences_read_logcat_qualcomm_device_title">Qualcomm-Modem Gerät</string>
+    <string name="preferences_read_logcat_qualcomm_device_summary">Das ist das Modem das CellMapper benutzen wird.  Normalerweise, /dev/smd11.  Neustart der App benötigt.</string>
 
 
-    <string name="preferences_estimate_band_title">Estimate Frequency Bands and Bandwidth</string>
-    <string name="preferences_estimate_band_summary">This will contact the server to estimate GSM/UMTS/LTE bands/bandwidths.  Requires a data connection.</string>
+    <string name="preferences_estimate_band_title">Erkenne Frequenzbänder und Bandbreite</string>
+    <string name="preferences_estimate_band_summary">Daten werden vom Server abgefragt, um GSM/UMTS/LTE Bänder/Bandbreite zu erkennen.  Benötigt Datenverbindung.</string>
 
 
     <string name="preferences_show_hex_values_title">Zeige Hex-Werte</string>
@@ -215,13 +215,13 @@
 
     <!-- Rest of prefs -->
     <string name="preferences_dual_sim_support_title">Dual SIM Untersützung</string>
-    <string name="preferences_dual_sim_support_summary">Enable/disable dual SIM support for phones that do not support the 4.2+ CellID API.  Requires app restart.</string>
+    <string name="preferences_dual_sim_support_summary">Aktiviert/Deakriviert Dual-SIM Unterstützung für Geräte, die die 4.2+ CellID API nicht unterstützen. Benötigt Neustart.</string>
 
     <string name="preferences_send_debug_title">Sende Debug Infomationen</string>
-    <string name="preferences_send_debug_summary">Creates an email to send the developer debug information about your device.  Useful when features are not working on your particular phone.</string>
+    <string name="preferences_send_debug_summary">Erzeugt eine Email mit Debug-Infomationen über dein Gerät für den Entwickler.  Wenn Fuktionen auf deinem Gerät nicht funktionieren ist das sehr hilfreich.</string>
 
 
-    <string name="blank_screen_press_back">Press the back button to exit this screen.</string>
+    <string name="blank_screen_press_back">Klicke auf Zurück um dieses Menü zu verlassen.</string>
 
     <string name="preferences_record2g_title">Aufzeichnen von 2G-Daten</string>
     <string name="preferences_record2g_summary">Aktiviert/Deaktivier die Aufzeichnung von 2G (GSM, CDMA) Daten</string>
