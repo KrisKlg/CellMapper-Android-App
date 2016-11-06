@@ -58,7 +58,7 @@
     <string name="menu_text_changeprovider">Netzbetreiber auswählen</string>
     <string name="menu_text_changemaptype">Kartentyp ändern</string>
     <string name="menu_text_open_map_in_brower">Im Browser öffnen</string>
-    <string name="menu_text_filter_bands">Frequenzen Filtern</string>
+    <string name="menu_text_filter_bands">Frequenzfilter</string>
     <string name="menu_text_filter_tower">Mastensuche</string>
 
     <string name="filter_tower_hint">ex. 12345, 00ABA, 0x1234</string>
@@ -86,8 +86,8 @@
     <string name="activity_upload_total_points_to_upload">Gesamte Punkte zum Hochladen:</string>
     <string name="activity_upload_date_of_last_point">Datum der hochgeladenen Daten-Punkte:</string>
     <string name="activity_upload_distinct_cells_found">Zellen gefunden:</string>
-    <string name="activity_upload_uploading_data_points">Uploading %,d Daten-Punkte</string>
-    <string name="activity_upload_done">Done</string>
+    <string name="activity_upload_uploading_data_points">Upload %,d Daten-Punkte</string>
+    <string name="activity_upload_done">Fertig</string>
     <string name="activity_upload_reupload_confirm">Bist du sicher die Daten zwischen dem:\n%1$s\nund dem\n %2$s\n neu hochzuladen?\n  %3$d Daten-Punkte werden neu hochgeladen.</string>
 
 
@@ -109,7 +109,7 @@
     <string name="cells_screen_upload_status">Upload Status</string>
     <string name="cells_screen_wait_for_gps">Warte auf GPS</string>
     <string name="cells_screen_error_retrying">Fehler, Neuversuch...</string>
-    <string name="cells_screen_recording_disabled">Daten Aufzeichnung deaktiviert</string>
+    <string name="cells_screen_recording_disabled">Datenaufzeichnung deaktiviert</string>
     <string name="cells_screen_login_status">"Login Status</string>
     <string name="cells_screen_status_header">"Status</string>
 
@@ -125,7 +125,7 @@
     <string name="preferences_debug">Debug</string>
 
     <string name="preferences_upload_enabled_title">Sofort-Upload aktivieren</string>
-    <string name="preferences_upload_enabled_summary">Aktiviere den Live-Upload zur CellMapper Website.  Datenvolumen wird dafür benötigt, aber die Ergebnissen sind am genausten.\n Du kannst die Daten aber auch später hochladen.</string>
+    <string name="preferences_upload_enabled_summary">Aktiviere den Live-Upload zur CellMapper Website.  Datenvolumen wird dafür benötigt, aber die Ergebnissen sind genauer.\n Du kannst die Daten aber auch jederzeit später hochladen.</string>
 
     <string name="preferences_upload_auto_wifi_enabled_title">WLAN Auto-Upload</string>
     <string name="preferences_upload_auto_wifi_enabled_summary">Läd automatisch neue Daten hoch, wenn WLAN verfügbar ist.</string>
@@ -138,13 +138,13 @@
     <string name="preferences_cell_sound_enabled_summary">Spielt Benachrichtigungston bei Zellen-ID Änderung</string>
     
     <string name="preferences_start_on_boot_title">Autostart</string>
-    <string name="preferences_start_on_boot_summary">Startet CellMapper beim Neustart des Handys</string>
+    <string name="preferences_start_on_boot_summary">Startet CellMapper beim Start des Handys</string>
     
     <string name="preferences_override_volume_title">Deaktivierung der Lautstärketasten</string>
     <string name="preferences_override_volume_summary">Deaktiviert die Lautstärketasten und verhindert das unbeabsichtigte Drücken</string>   
 
     <string name="preferences_use_imperial_title">Imperiale Einheiten anzeigen</string>
-    <string name="preferences_use_imperial_summary">Zeigt Geschwindigkeit in MPH statt in Km/h. Höhe in Ft statt Meter</string>
+    <string name="preferences_use_imperial_summary">Zeigt Geschwindigkeit in MPH statt in Km/h und Höhe in Fuß statt Meter</string>
 
     <string name="preferences_write_csv_file_title">CSV-Datei erstellen</string>
     <string name="preferences_write_csv_file_summary">Erstellt ein CSV-Datei für spätere Nutzung</string>   
@@ -160,15 +160,15 @@
     <string name="preferences_advanced_settings">Weitere Einstellungen</string>
     
     <string name="preferences_newcellapi_enabled_title">Nutze die neue Android 4.2 Cell ID API</string>
-    <string name="preferences_newcellapi_enabled_summary">Die neue Zellen API für Android 4.2 und neuer wird genutzt. Leder haben viele Hersteller (inkl. Google) die neue API nicht implementiert. So wird es meisten nicht funktionieren. App-Neustart vorausgesetzt.</string>       
+    <string name="preferences_newcellapi_enabled_summary">Die neue Zellen API für Android 4.2 und neuer wird genutzt. Leider haben viele Hersteller (inkl. Google) die neue API nicht implementiert. So wird es meistens nicht funktionieren. App-Neustart benötigt.</string>       
 
     <string name="preferences_check_gps_age_title">Prüfe GPS-Fix Alter</string>
-    <string name="preferences_check_gps_age_summary">Erhöht Datengenauigkeit in Tunneln und dicht besiedelten Gebieten. Auschalten, wenn \'GPS Fix zu alt\' angezeigt wird auch wenn dies nicht zutrifft.</string>       
+    <string name="preferences_check_gps_age_summary">Erhöht Datengenauigkeit in Tunneln und dicht besiedelten Gebieten. Auschalten, wenn \'GPS Fix zu lange her\' angezeigt wird auch wenn dies nicht zutrifft.</string>       
 
-    <string name="preferences_record_interval_title">Kleinster Aufzeichnungsinterval</string>
-    <string name="preferences_record_interval_summary">Kleinster Sekundenabstand zwischen Daten-Punkten</string>       
+    <string name="preferences_record_interval_title">Kleinster Aufzeichnungsintervall</string>
+    <string name="preferences_record_interval_summary">Kleinster Sekundenabstand zwischen Aufzeichnung von Daten-Punkten</string>       
 
-    <string name="preferences_keep_screen_on_title">Bildschirm angschaltet lassen</string>
+    <string name="preferences_keep_screen_on_title">Bildschirm angeschaltet lassen</string>
     <string name="preferences_keep_screen_on_summary">Kann nur ausgeschaltet werden wenn die Android 4.2 Cell ID API aktiviert ist.</string>
 
     <string name="preferences_keep_screen_on_brightness_title">Keep Screen On Brightness</string>
@@ -180,17 +180,17 @@
     <string name="preferences_suppress_errors_title">Unterdrücke Fehler</string>
     <string name="preferences_suppress_errors_summary">Versteckt alle Fehler Pop-Ups, außer sie sind wichtig.</string>       
 
-    <string name="preferences_upload_batch_size_title">Upload Größe</string>
-    <string name="preferences_upload_batch_size_summary">Größe der Daten-Punkte, die pro Abfrage des Serves hochgeldaen werden.  Stelle eine kleinere Zahl ein, wenn der Upload öfters fehlschlägt.</string>       
+    <string name="preferences_upload_batch_size_title">Upload Größe von Daten</string>
+    <string name="preferences_upload_batch_size_summary">Größe der Daten-Punkte, die pro Abfrage des Serves hochgeladen werden.  Stelle eine kleinere Zahl ein wenn der Upload öfters fehlschlägt.</string>       
 
     <string name="preferences_is_wear_enabled_title">Android Wear Benachritigungen aktivieren</string>
-    <string name="preferences_is_wear_enabled_summary">Kontrolliert Android Wear Benachrichtigungen.  Neustart der App benötigt.</string>
+    <string name="preferences_is_wear_enabled_summary">Kontrolliert Android Wear Benachrichtigungen. Neustart der App benötigt.</string>
 
     <string name="preferences_hide_unknown_cells_title">Verstecke Unbekannte Zellen</string>
     <string name="preferences_hide_unknown_cells_summary">Versteckt Zellen mit unbekannter Zellen-ID auf dem Hauptbildschirm.</string>
 
-    <string name="preferences_read_logcat_title">Liest den Logcat von Samsung/Sony Field Test Daten (root)</string>
-    <string name="preferences_read_logcat_summary">Ermöglicht das Lesen des Logcats von Samsung/Sony Field Test Mode Daten.  Do not enable this if you are using the screen reader method.  On newer phones, field test must run in foreground or dual-window mode.  Requires root for Android 4.1+ and app restart when changed.</string>
+    <string name="preferences_read_logcat_title">Logcat von Samsung/Sony Field Test Daten (root) lesen</string>
+    <string name="preferences_read_logcat_summary">Ermöglicht das Lesen des Logcats von Samsung/Sony Field Test Mode Daten.  Nicht einschalten wenn eine andere Screen-Reader Methode benutzt wird! Auf neueren Handy muss der Fieldtest im Vordergrund oder im Splitscreen laufen. Benötigt Root ab Anroid 4.1+. Bei Änderung wird ein App-Neustart benötigt.</string>
 
     <string name="preferences_read_logcat_qualcomm_title">Lese Qualcomm LTE Daten (root)</string>
     <string name="preferences_read_logcat_qualcomm_summary">Liest die LTE-Frequenzen auf Qualcomm-Modems.</string>
@@ -204,17 +204,17 @@
 
 
     <string name="preferences_show_hex_values_title">Zeige Hex-Werte</string>
-    <string name="preferences_show_hex_values_summary">Zeigt Hexadizimale Werte anstatt Dezimale Werte für die Zellen-IDs.</string>
+    <string name="preferences_show_hex_values_summary">Zeigt Hexadezimale Werte anstatt Dezimale Werte für die Zellen-IDs.</string>
 
     <!-- Misc errors -->
     <string name="gps_error_title">GPS Fehler</string>
-    <string name="gps_error_body">GPS wird benötigt, damit die App richtig funktioniert.  Sonst sind manche Funktionen nicht verfügbar.</string>
+    <string name="gps_error_body">GPS wird benötigt, damit die App richtig funktioniert. Sonst sind manche Funktionen nicht verfügbar.</string>
 
     <string name="map_error_title">Kartenfelhler</string>
-    <string name="map_error_body">Dein Handy unterstützt Googles Maps API v2 leider nicht.  Besuche die Webseite um deine Daten zu s.</string>
+    <string name="map_error_body">Dein Handy unterstützt Googles Maps API v2 leider nicht. Besuche die Webseite um deine Daten zu prüfen.</string>
 
     <!-- Rest of prefs -->
-    <string name="preferences_dual_sim_support_title">Dual SIM Untersützung</string>
+    <string name="preferences_dual_sim_support_title">Dual-SIM Untersützung</string>
     <string name="preferences_dual_sim_support_summary">Aktiviert/Deaktiviert Dual-SIM Unterstützung für Geräte, die die 4.2+ CellID API nicht unterstützen. Benötigt Neustart.</string>
 
     <string name="preferences_send_debug_title">Sende Debug Infomationen</string>
@@ -232,13 +232,13 @@
     <string name="preferences_record4g_title">Aufzeichnen von 4G-Daten</string>
     <string name="preferences_record4g_summary">Aktiviert/Deaktiviert die Aufzeichnung von 4G (LTE) Daten </string>
 
-    <string name="preferences_enable_geofencing_title">Enable location exclusion (geofencing)</string>
-    <string name="preferences_enable_geofencing_summary">Enable/disable location exclusion when mapping.  Long tap on the map in order to set an area to exclude.  App restart required.</string>
+    <string name="preferences_enable_geofencing_title">Ativierung von Positionsausnahmen (Geofencing)</string>
+    <string name="preferences_enable_geofencing_summary">Aktiviert/Deaktiviert Positionsausnahmen beim Kartieren.  Long tap on the map in order to set an area to exclude.  App-Neustart benötigt.</string>
 
-    <string name="preferences_geofencing_radius_title">Geofencing radius (metres)</string>
-    <string name="preferences_geofencing_radius_summary">Sets the exclusion radius for the above setting.  App restart required.</string>
+    <string name="preferences_geofencing_radius_title">Geofencing Radius (Meter)</string>
+    <string name="preferences_geofencing_radius_summary">Stellt Ausnahmenradius für obere Einstellung ein. App-Neustart benötigt.</string>
 
-    <string name="preferences_show_cells_with_frequency_only_title">Zeige nur Zellen mir Frequenz-Daten</string>
+    <string name="preferences_show_cells_with_frequency_only_title">Zeige nur Zellen mit Frequenzdaten</string>
     <string name="preferences_show_cells_with_frequency_only_summary">Zeigt nur Zellen mit gültiger ARFCN/EARFCN/UARFCN.</string>
 
     <string name="stop_recording">Stoppe Aufzeichnung</string>
