@@ -53,6 +53,7 @@
     <string name="menu_text_blankscreen">Blank Screen</string>
     <string name="menu_text_car_mode">Car Mode</string>
     <string name="menu_text_recorddata">Record Data</string>
+    <string name="menu_text_frequency_calculator">Frequency Calculator</string>
     <string name="menu_text_exit">Exit</string>
     <!-- Map Screen -->
     <string name="menu_text_changeprovider">Select Provider</string>
@@ -246,6 +247,16 @@
 
     <string name="accessibility_description">Reads field test mode app data without root.  Requires 4.2+ CellID API for Samsung devices.</string>
     <string name="battery_optimization_error">The Instant Upload feature will not work until "battery optimization" is disabled and CellMapper is running in the background.  To do so, go to Android Settings > Battery > Battery Optimization (under menu) and ensure CellMapper is set to "Not optimized" under "All Apps".</string>
+
+
+    <!-- Frequency Calculator Screen -->
+    <string name="activity_calculator_calculate">Calculate</string>
+    <string name="activity_calculator_frequency_hint">ARFCN / UARFCN / EARFCN</string>
+    <string name="activity_calculator_frequency_uplink">Uplink</string>
+    <string name="activity_calculator_frequency_downlink">Downlink</string>
+    <string name="activity_calculator_frequency_duplexing">Duplexing</string>
+    <string name="activity_calculator_frequency_band_name">Band Name</string>
+    <string name="activity_calculator_frequency_band_number">Band Number</string>
 
 
 
