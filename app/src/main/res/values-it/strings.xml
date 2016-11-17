@@ -59,6 +59,8 @@
     <string name="menu_text_account">Account</string>
     <string name="menu_text_settings">Impostazioni</string>
     <string name="menu_text_recorddata">Registra Dati</string>
+    <string name="menu_text_frequency_calculator">Calcola Frequenza</string>
+
     <string name="menu_text_exit">Esci</string>
     <!-- Map Screen -->
     <string name="menu_text_changeprovider">Seleziona Provider</string>
@@ -249,6 +251,15 @@
     <string name="accessibility_description">Legge i dati dal menù di servizio Samsung senza bisogno del Root. Richiede l\'uso delle nuove API di Android 4.2+.</string>
     <string name="battery_optimization_error">L\'opzione di Uppload Istantaneo non funzionerà finché l\'ottimizzazione batteria non verrà disabilitata, con CellMapper che gira in background. Per disabilitarla, vai nelle Impostazioni di Android > Batteria > Ottimizzazione batteria (nel menu coi tre puntini), ed assicurati che CellMapper sia impostato come "Non ottimizzato" sotto "Tutte le app".</string>
 
+    <!-- Frequency Calculator Screen -->
+    <string name="activity_calculator_calculate">Calcola</string>
+    <string name="activity_calculator_frequency_hint">ARFCN / UARFCN / EARFCN</string>
+    <string name="activity_calculator_frequency_uplink">Uplink</string>
+    <string name="activity_calculator_frequency_downlink">Downlink</string>
+    <string name="activity_calculator_frequency_duplexing">Duplexing</string>
+    <string name="activity_calculator_frequency_band_name">Nome Banda</string>
+    <string name="activity_calculator_frequency_band_number">Numero Banda</string>
+ 
     <!-- provider dialog
     <string name="select_provider_dialog_title">Seleziona Provider</string>
     <string name="select_provider_dialog_action_text">Seleziona un provider qui sotto</string-->
